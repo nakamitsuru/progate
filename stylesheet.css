@@ -199,9 +199,15 @@ footer {
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
   
+  .top-wrapper h1:last-of-type {
+    margin-top: 50px;
+  }
   .container{
     max-width: 748px;
     margin: 0 auto;
+  }
+  .top-wrapper p{
+    margin: 30px 0;
   }
   .container .top-text {
     max-width: 500px;
@@ -263,6 +269,13 @@ footer {
   }
 .top-wrapper {
   background-position: center;
+  }
+  .top-wrapper h1:last-of-type {
+    margin-top: 0px;
+  }
+  
+  .top-wrapper p{
+    margin: 0px 0;
   }
   
 }
